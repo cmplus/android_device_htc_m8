@@ -63,8 +63,6 @@ BOARD_CUSTOM_BOOTIMG_MK := device/htc/m8/mkbootimg.mk
 TARGET_KERNEL_CONFIG := liquid_m8_defconfig
 TARGET_KERNEL_SOURCE := kernel/htc/msm8974
 
-
-
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
 TARGET_ENABLE_QC_AV_ENHANCEMENTS := true
@@ -183,9 +181,6 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 TARGET_UNIFIED_DEVICE := true
 TARGET_INIT_VENDOR_LIB := libinit_m8
 TARGET_LIBINIT_DEFINES_FILE := device/htc/m8/init/init_m8.c
-
-# External apps on SD
-TARGET_EXTERNAL_APPS = sdcard1
 
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := device/htc/m8/releasetools

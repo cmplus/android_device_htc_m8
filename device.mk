@@ -23,9 +23,12 @@ $(call inherit-product-if-exists, vendor/htc/m8-common/m8-common-vendor.mk)
 # overlays
 DEVICE_PACKAGE_OVERLAYS += device/htc/m8/overlay
 
+PRODUCT_PROPERTY_OVERRIDES += \
+otaupdater.otaid=cmm8
+
 # Boot animation
-PRODUCT_COPY_FILES += \
-    device/htc/m8/overlay/prebuilt/1080.zip:system/media/bootanimation.zip
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1080
 
 # Device uses ultra-high-density artwork where available
 PRODUCT_AAPT_CONFIG := hdpi xhdpi xxhdpi
@@ -214,7 +217,3 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
     $(LOCAL_PATH)/configs/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf
-
-# OTA ID
-PRODUCT_PROPERTY_OVERRIDES += \
-	otaupdater.otaid=liquidm8
