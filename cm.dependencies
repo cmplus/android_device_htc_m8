@@ -7,19 +7,19 @@
   },
   {
     "remote": "gh",
-    "repository": "CyanogenMod/android_device_qcom_common",
+    "repository": "LiquidSmooth-Devices/android_device_qcom_common",
     "target_path": "device/qcom/common",
     "revision": "cm-11.0"
   },
   {
     "remote": "gh",
-    "repository": "CyanogenMod/android_hardware_qcom_display-caf-new",
+    "repository": "LiquidSmooth/android_hardware_qcom_display-caf-new",
     "target_path": "hardware/qcom/display-caf-new",
     "revision": "cm-11.0"
   },
   {
     "remote": "gh",
-    "repository": "CyanogenMod/android_hardware_qcom_media-caf-new",
+    "repository": "LiquidSmooth/android_hardware_qcom_media-caf-new",
     "target_path": "hardware/qcom/media-caf-new",
     "revision": "cm-11.0"
   },
@@ -31,7 +31,7 @@
   },
   {
     "remote": "gh",
-    "repository": "TheMuppets/proprietary_vendor_htc",
+    "repository": "LiquidSmooth/proprietary_vendor_htc",
     "target_path": "vendor/htc",
     "revision": "cm-11.0"
   }
